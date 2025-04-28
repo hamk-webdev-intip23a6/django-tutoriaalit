@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'moviedb.apps.MoviedbConfig',
     'feedback.apps.FeedbackConfig',
     'gallery.apps.GalleryConfig',
     'guestbook.apps.GuestbookConfig',
